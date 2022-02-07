@@ -1,0 +1,22 @@
+    1. Create a new directory in your home directory with the name test.
+    2. Navigate to the test directory.
+    3. Create a new file called test.txt. Hint: use the touch or echo command.
+    4. Open your newly created file in VSCode and make some changes, save the file, and close it.
+    5. Navigate back out of the test directory.
+    6. Delete the test directory.
+
+Solution
+    1. Create a new directory in your home directory with the name test.
+mkdir test
+    2. Navigate to the test directory.
+    3. Create a new file called test.txt. Hint: use the touch or echo command.
+    4. Open your newly created file in VSCode and make some changes, save the file, and close it.
+    5. Navigate back out of the test directory.
+    6. Delete the test directory.
+odin@odin-VirtualBox:~/Documents/TheOdinProject/assignments/commandlinebasics$ mkdir ~/test
+odin@odin-VirtualBox:~/Documents/TheOdinProject/assignments/commandlinebasics$ cd ~/test/
+odin@odin-VirtualBox:~/test$ touch test.txt
+odin@odin-VirtualBox:~/test$ code test.txt 
+odin@odin-VirtualBox:~/test$ cd ..
+odin@odin-VirtualBox:~$ rm -rf test/
+
