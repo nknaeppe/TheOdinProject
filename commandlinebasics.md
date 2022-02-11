@@ -30,13 +30,21 @@ cd <target directory>
 8. Where will cd .. navigate you to?
   it will navigate one step back in the folder path from your current position
 9. How do you display the name of the directory you are currently in?
-  ``` pwd ```
+  ```
+ pwd 
+ ```
 10. How do you display the contents of the directory you are currently in?
-  ls
+  ``` 
+ ls 
+ ```
 11. How do you create a new directory?
-  ```mkdir newfolder```
+  ```
+ mkdir newfolder
+ ```
 12. How do you create a new file?
- ``` touch newfile ```
+ ```
+ touch newfile
+ ```
 13. How do you destroy a directory or file?
   ```
   rm file
@@ -44,4 +52,6 @@ cd <target directory>
   rm -r directory ( with content )
   ```
 14. How do you rename a directory or file?
-  ``` mv folder newfoldername ```
+  ```
+ mv folder newfoldername 
+ ```
