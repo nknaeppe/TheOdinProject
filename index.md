@@ -4,5 +4,5 @@ This page if for documenting the assignments of [The Odin Project](https://www.t
 
 ## Assignments
 
-- How does the web work
+- [How does the web work](https://github.com/nknaeppe/TheOdinProject/blob/gh-pages/howdoesthewebwork.md)
 - Command Line Basics
