@@ -1,8 +1,8 @@
-## The Odin Project 
+# The Odin Project 
 
 This page if for documenting the assignments of [The Odin Project](https://www.theodinproject.com/).
 
-#Assignmnets
+## Assignments
 
-How does the web work
-Command Line Basics
+- How does the web work
+- Command Line Basics
