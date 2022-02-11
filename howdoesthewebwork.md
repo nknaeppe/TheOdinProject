@@ -1,0 +1,31 @@
+# How does the web work?
+### What is a network?
+A network is connection between two or more computers. The connection can be wireless or wired. The typical connection is made via wired connections. 
+### What is the internet?
+The internet is the infrastructure to enable the communication between computers accross the network. 
+### What is an IP address?
+The IP address is an a unique number, which is used to locate to a specific computer. Without the ip address, the communication accross the internet would not be possible. 
+### What is a router?
+A router is a specific computer used, to route packages through the internet. Every router sends he package one step closer to its target, until it reaches it’s destination
+### What is an ISP?
+An Internet Service Provider is a company that manages special routers, which are connected all together and connected to other ISP routers.
+### What are packets and how are they used to transfer data?
+If data is sent over the internet, is seperate in small chunks, known as packages. The package contain additional information, like the server ip, the client ip and a sequence number. Each package will be sent independent from each other. If they arrive a the client, the packages will assembled according to its sequence number and if a a package is corrupt or missing, it will be acknowledge and a new request is made to the server, to resend the the package. 
+### What is a client?
+A client is computer, which is not directly connected to the internet and uses an ISP to access it. 
+### What is a server?
+A server is a computer, which is directly connected to the internet and has it’s own IP address to access it.
+### What is a web page?
+A web page is a simple document displayed by a browser. It is written in HTML and contain other resources, like style information,  scripts or media. 
+### What is a web server?
+A web server is a server, which stores one or more websites. All web pages and their supporting files are availlable on that server
+### What is a web browser?
+A web browser is an application that connects to the internet and displays and interpretate web contenet.
+### What is a search engine?
+A search engine is special website that helps users to find web pages form other web sites.
+### What is a DNS request?
+A DNS requests resolves a domain name into the according ip address. If a address is entered into a browser, it checks the local dns cache. If the Ip is not located, the request is sent to a DNS server. After resolving the name, the browser uses the ip address to make requests at the server.
+### Which browser are you currently using?
+Chrome
+### In your own words, explain what happens when you run a search on google.com.
+Through entering a search request on the google website, a requests is send, with the specific search term. First a DNS Lookup is made by the browser, where it looks in the lcoal DNS Cache for the ip address of google.com. Because the google website is often used, the browser can use the local stored ip address. If the ip address isn’t local stored, the browser would make a request to the DNS, server, for example cloudflare and use the given ip address to make a http request. It asks to send a copy of the website. The message is send over the internet using IP/TCP. The google server accepts the requests by sending a 200 OK message and starts sending the websites files in data packets. According to the sequence number, the browser assembles the packets into a web page, showing google search. If some packages are corrupted or dropped, the missing packages are requested again.
