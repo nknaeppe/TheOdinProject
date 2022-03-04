@@ -20,7 +20,10 @@
 9. Explain the difference between prefixing and post-fixing increment/decrement operators.
 - The difference between prefixing or post-fixing is, that is either returns the old or the ne value. A prefix increments or decrements the variable and return the new one. The post-fix increments or decrements the value and returns the old value.
 10. What is operator precedence and how is it handled in JS?
-- The 
+- The operator precedence sets the priority of the operation. A high priority will executed before a lower priority. A multiplikation will be calculated before a substraction. Parantheses are used for overwrtiting lower priotrity operations, because they have a higher precedence. This way a substraciton can be made before a multiplication
 11. How do you access developer tools and the console?
+- by right clicking in the browser and selecting inspect
 12. How do you log information to the console?
+- consologe.log("Information")
 13 What does unary plus operator do to string representations of integers?
+- it converts the string to number. 
