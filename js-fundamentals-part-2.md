@@ -53,10 +53,15 @@ else{
 ´´´
 16. What is the syntax for a switch statement?
 ´´´
-switch(){
-case1:
-case2:
+switch(condition){
+case condition1:
+  //do something
+  break;
+case conditon2:
+  //do something else
+  break;
 default: {
+  //runs if none cases matches;
 }
 }
 ´´´
