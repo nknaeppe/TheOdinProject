@@ -6,8 +6,8 @@
 - :root
 4. Where would you declare a custom property so that a user’s theme setting from their OS or browser was taken into account?
 - in the CSS with:
-''' @media (prefers-color-scheme: dark) {
+ @media (prefers-color-scheme: dark) {
   :root {
   }
 }
-'''
+
