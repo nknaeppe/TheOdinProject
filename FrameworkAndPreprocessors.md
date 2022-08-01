@@ -13,8 +13,11 @@
 - it can limit the use of newer feature for the sake of comaptitbility
 - perfomance issues
 - frameworks can be implement so deep that they cant be replaced in the futre --> technical debt
-- 
 3. What are some advantages of using a CSS preprocessor?
--
+- DRY code (dont repeat yourself), reusable
+- easier to maintain
+- more organized
 4. What are some disadvantages of using a CSS preprocessor?
--
+- debugging is harder 
+- takes more time because of the compilation
+- extra stuff adds complexity. This needs to be understood, upgraded and maintained
