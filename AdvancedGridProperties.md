@@ -15,3 +15,4 @@
 8. What attribute of repeat() can be used to fill in as many grid tracks as possible, given certain constraints?
 - auto-fit and auto-fill
 9. What is the difference between auto-fit and auto-fill?
+- With auto-fill , everything is the same as auto-fit , except empty tracks are not collapsed.
